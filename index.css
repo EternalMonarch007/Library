@@ -88,3 +88,7 @@
     color: black;
     margin-top: 10px;
 }
+
+.modal::backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+}
