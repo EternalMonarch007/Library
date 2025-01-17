@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-container{
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-book{
+    background-color: black;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    font-size: 20px;
+    color: white;
+    padding:10px;
+    border-radius:5px;
+}
+
+.add-book:hover{
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.bottom-container{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding:20px;
+}
+
+.book{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    word-wrap:break-word;
+    max-width:400px;
+    width:250px;
+}
+
+.book h2{
+    font-size: 30px;
+    color: black;
+    text-align: center  ;
+}
+
+.book p{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button-book{
+    background-color: black;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    font-size: 15px;
+    color: white;
+    padding:5px;
+    border-radius:5px;
+    margin-top:10px;
+    margin-right:25px;
+}
+
+.modal{
+    padding: 30px;
+    background-color: #f1f1f1;
+    position: fixed;
+    max-width: 300px;
+    margin:auto;
+}
+
+.modal label{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
